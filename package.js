@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 Package.describe({
   summary: 'Performance Monitoring for Meteor',
   version: '2.45.2-beta.2',
@@ -5,7 +7,7 @@ Package.describe({
   name: 'montiapm:agent'
 });
 
-let npmModules = {
+var npmModules = {
   debug: '0.8.1',
   'monti-apm-core': '1.7.5',
   'evloop-monitor': '0.1.0',
